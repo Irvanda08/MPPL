@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Kriptografi</title>
     <link rel="stylesheet" href="/dist/output.css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -64,22 +64,70 @@
                     <div class="p-2 m-3 h-20 w-full flex rounded-xl pr-4 cursor-pointer text-slate-700 ">
                         <span class="flex text-[33px] ml-4 items-center">
                             <h1>
-                                Profile
+                                Stok Saya
                         </span>
                     </div>
 
                 </div>
 
 
-                <div class="mx-3 p-3">
-                    <div class="flex items-center p-2 mx-24">
+                <div class="mx-3 p-3 border bg-white max-w-fullxl rounded-xl mb-5">
+                    <div class="flex items-center p-2 mx-24 bg-gray-200 rounded-xl">
                         <div class=" bg-white m-3 p-4 h-48 w-52 rounded-xl items-center font-semibold shadow-2xl ">
                             <div class="flex justify-center">
                                 <img src="foto/guy.jpg" alt="" class="w-32">
                             </div>
                         </div>
+                        <div class="mx-3 h-48 w-full bg-white rounded-xl shadow-2xl overflow-auto">
+                            <div class="block border border-black bg-gray-300 ml-4 mr-4 mb-5 mt-5 rounded-xl">
+                                <div>
+                                    <p class="ml-5 mt-2">Nama Bahan Baku : Sayur</p>
+                                </div>
+                                <div>
+                                    <p class="ml-5 mt-3">Jumlah Stok : 400</p>
+                                </div>
+                                <div>
+                                    <p class="ml-5 mt-3">Harga : Rp. 5.000</p>
+                                </div>
+                                <div >
+                                    <p class="ml-5 mt-3 mb-3">Deskripsi : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, vel sit aperiam rem dolorem sequi modi quia? Error dignissimos reprehenderit nesciunt deserunt pariatur odit veritatis eum assumenda animi sit, sapiente ab quos porro doloremque? Inventore dicta asperiores distinctio fugit pariatur ex, aut a in, numquam natus mollitia vitae, nam nemo.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="flex items-center p-2 mx-24 bg-gray-200 rounded-xl mt-5">
+                        <div class=" bg-white m-3 p-4 h-48 w-52 rounded-xl items-center font-semibold shadow-2xl overflow-auto">
+                            <div class="flex">
+                                <p class="justify-center">gambar nanti di sini</p>
+                            </div>
+                        </div>
                         <div class="mx-3 h-48 w-full bg-white rounded-xl shadow-2xl ">
-                            <div class="block border border-black bg-gray-300 ml-4 mr-4 mb-5 mt-5">
+                            <div class="block border border-black bg-gray-300 ml-4 mr-4 mb-5 mt-5 rounded-xl">
+                                <div>
+                                    <p class="ml-5 mt-2">Nama : Muhammad Rizky</p>
+                                </div>
+                                <div>
+                                    <p class="ml-5 mt-3">No. tlp : 082360105106</p>
+                                </div>
+                                <div>
+                                    <p class="ml-5 mt-3">Sosial Media : @mhd_rizky_m</p>
+                                </div>
+                                <div>
+                                    <p class="ml-5 mt-3 mb-3">Alamat : Maguwoharjo, sleman, Yogyakarta</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="flex items-center p-2 mx-24 bg-gray-200 rounded-xl mt-5">
+                        <div class=" bg-white m-3 p-4 h-48 w-52 rounded-xl items-center font-semibold shadow-2xl overflow-auto">
+                            <div class="flex">
+                                <p class="justify-center">gambar nanti di sini</p>
+                            </div>
+                        </div>
+                        <div class="mx-3 h-48 w-full bg-white rounded-xl shadow-2xl ">
+                            <div class="block border border-black bg-gray-300 ml-4 mr-4 mb-5 mt-5 rounded-xl">
                                 <div>
                                     <p class="ml-5 mt-2">Nama : Muhammad Rizky</p>
                                 </div>
@@ -97,19 +145,6 @@
                         </div>
                     </div>
 
-                </div>
-
-                <div class="mx-3 p-3">
-                    <div class="flex items-center p-2 mx-24">
-                        <div class="w-full h-60 rounded-xl bg-white shadow-2xl">
-                            <div class=" ml-5 mt-4">
-                                <p class="mb-4">Deskripsi :</p>
-                                <div class="block border border-black bg-gray-300  mr-4 mb-5 mt-5">
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ullam obcaecati autem, nihil voluptates id praesentium architecto omnis quis nostrum cupiditate pariatur a non assumenda quo sint voluptatum repellendus dolore alias ea veritatis possimus nesciunt, illo maiores! Maxime illo iure, aspernatur, beatae asperiores laboriosam facere porro tenetur numquam recusandae quisquam!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

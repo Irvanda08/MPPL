@@ -63,7 +63,6 @@
 
             <div class="w-screen m-2 rounded-xl bg-[#08c4fc]">
                 <div class="flex mt-6">
-                    <div class="p-2 m-3 ml-14 w-24 h-20 bg-white rounded-xl shadow-2xl"></div>
                     <div class="p-2 m-3 h-20 w-full flex rounded-xl pr-4 cursor-pointer text-slate-700 ">
                         <span class="flex text-[33px] ml-4 items-center">
                             <h1>

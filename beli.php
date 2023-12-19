@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pembayaran</title>
+    <title>Kriptografi</title>
     <link rel="stylesheet" href="/dist/output.css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -56,52 +56,70 @@
                         Bottom</div>
                     <div
                         class="p-1 ml-1 w-full text-[13px]duration-300 cursor-pointer hover:bg-[#08c4fc] hover:text-white text-slate-700 shadow-lg rounded-md">
-                        Logout</div>
+                        Bottom</div>
                 </div>
 
             </div>
 
-            <div class="w-screen m-2 rounded-xl bg-[#08c4fc] ">
+            <div class="w-screen m-2 rounded-xl bg-[#08c4fc]">
                 <div class="flex mt-6">
                     <div class="p-2 m-3 h-20 w-full flex rounded-xl pr-4 cursor-pointer text-slate-700 ">
                         <span class="flex text-[33px] ml-4 items-center">
                             <h1>
-                                Pembayaran
+                                Pembelian
                         </span>
                     </div>
-                </div>
-
-                            <form action="" method="post">
-                                <div class="container max-w-5xl mx-auto rounded-xl bg-white">
-                                    <div class="flex flex-wrap gap-x-24 justify-evenly">
-                                        <div class="w-52 flex">
-                                            <input type="radio" name="ovo" value="">
-                                            <img src="foto/ovo.jpg" alt="">
-                                        </div>
-                                        <div class="w-52 flex">
-                                            <input type="radio" name="atm" value="">
-                                            <img src="foto/atm.jpg" alt="">
-                                        </div>
-                                        <div class="w-52 flex">
-                                            <input type="radio" name="gopay" value="">
-                                            <img src="foto/gopay.webp" alt="">
-                                        </div>
-                                        <div class="w-52 flex">
-                                            <input type="radio" name="cod" value="">
-                                            <img src="foto/cod.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flex justify-start mt-10 ml-16">
-                                    <div class="mt-3 border bg-white py-3 rounded-2xl">
-                                        <button class=" bg-green-400 border-2 border-black h-11 p-2.5 px-6 py-2 ml-3 mr-3"
-                                            name="simpan">Bayar</button>
-                                    </div>
-                                </div>
-                            </form>
 
                 </div>
 
+
+                <div class="mx-3 p-3">
+                    <div class="flex items-center p-2 mx-24">
+                        <div class=" bg-white m-3 p-4 h-48 w-52 rounded-xl items-center font-semibold shadow-2xl ">
+                            <div class="flex">
+                                <img src="mobil3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="mx-3 h-48 w-full bg-white rounded-xl shadow-2xl ">
+                            <div class="block border border-black bg-gray-300 ml-4 mr-4 mb-5 mt-5 rounded-xl">
+                                <div>
+                                    <p class="ml-5 mt-2">Nama Bahan Baku : Sayur</p>
+                                </div>
+                                <div>
+                                    <p class="ml-5 mt-3">Harga : Rp.5.000</p>
+                                </div>
+                                <div>
+                                    <p class="ml-5 mt-3">Deskripsi : Lorem ipsum, dolor sit amet consectetur adipisicing
+                                        elit. Atque, non tempora. Culpa, ab quia aliquid a unde enim dolores consequatur
+                                        molestiae fuga! Consectetur, expedita!ab quia aliquid a unde enim dolores
+                                        consequatur
+                                        molestiae fuga! Consectetur, expedita!</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mx-3 p-3">
+                    <div class="flex items-center p-2 mx-24">
+                        <div class="w-full  rounded-xl bg-white shadow-2xl">
+                            <div class=" ml-5 mt-4">
+                                <div class="mb-3 mt-3 md:flex justify-center">
+                                    <label for="text" class="ml-7 text-xl">Jumlah : </label>
+                                    <input type="number"
+                                        class="block border-2 border-black w-80 h-7 pl-4 md:flex lg:mx-3 rounded-md "
+                                        name="nama_ibu" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-end mt-20 mr-32">
+                        <button class=" bg-green-400 border-2 border-black h-11 p-2.5 px-6 py-2 ml-3 mr-3"
+                            name="simpan">Beli Item</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
