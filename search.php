@@ -54,14 +54,19 @@
                     </div>
 
                 </div>
-                <div>
-                    <div class="border bg-white container mx-auto rounded-xl border-black max-w-6xl">
+                <div class="">
+                    <div class="flex justify-center border bg-white container mx-auto rounded-xl border-black max-w-6xl">
                         <!-- <div class="flex container mx-auto border shadow-md bg-cyan-100 justify-center"> -->
-                        <div class="mb-3 mt-3 md:flex justify-center">
+                        <div class="mb-3 mt-3 md:flex justify-center mr-10 ml-72">
                             <label for="text" class="ml-7 text-xl">Search : </label>
                             <input type="text"
                                 class="block border-2 border-black w-80 h-7 pl-4 md:flex lg:mx-3 rounded-xl "
                                 name="nama_ibu" />
+                        </div>  
+                        <div class="ml-64">
+                            <a href="cart.php">
+                            <img src="foto/cart.png" alt="" class="w-10 h-10 mt-1">
+                            </a>
                         </div>
 
                         <!-- </div> -->
@@ -307,7 +312,7 @@
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                    Open positions
+                    Detail
                 </h3>
                 <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm h-8 w-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="select-modal">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
@@ -318,44 +323,39 @@
             </div>
             <!-- Modal body -->
             <div class="p-4 md:p-5">
-                <p class="text-gray-500 dark:text-gray-400 mb-4">Select your desired position:</p>
+                <p class="text-gray-500 dark:text-gray-400 mb-4">Keranjang Anda</p>
                 <ul class="space-y-4 mb-4">
                     <li>
                         <div class="grid grid-cols-2">
-                            
-                        <div>
-                            <input type="radio" id="job-1" name="job" value="job-1" class="hidden peer" required>
-                            <label for="job-1" class="inline-flex items-center justify-between w-40 p-1 text-gray-900 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">                           
-                            <div class="block">
-                                <div class="w-full text-lg font-semibold">UI/UX Engineer</div>
-                                <div class="w-full text-gray-500 dark:text-gray-400">Flowbite</div>
+                            <div class="col-span-1">
+                                <input type="radio" id="job-1" name="job" value="job-1" class="hidden peer" required>
+                                <label for="job-1" class="inline-flex items-center justify-between w-56 p-1 text-gray-900 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">                           
+                                <div class="block">
+                                    <div class="w-full text-lg font-semibold">UI/UX Engineer</div>
+                                    <div class="w-full text-gray-500 dark:text-gray-400">Flowbite</div>
+                                </div>
+                                </label>
                             </div>
-                            <svg class="w-4 h-4 ms-3 rtl:rotate-180 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
-                        </label>
+                            <div class="col-span-1 mt-3 ml-16">
+                                <input type="number" class="w-20 rounded-xl bg-gray-600 text-white"></input>
+                            </div>
                         </div>
-                        </div>
-                        
-                        <input type="number" class="w-10"></input>
                     </li>
                     <li>
-                        <input type="radio" id="job-2" name="job" value="job-2" class="hidden peer">
-                        <label for="job-2" class="inline-flex items-center justify-between w-full p-1 text-gray-900 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">
-                            <div class="block">
-                                <div class="w-full text-lg font-semibold">React Developer</div>
-                                <div class="w-full text-gray-500 dark:text-gray-400">Alphabet</div>
+                        <div class="grid grid-cols-2">
+                            <div class="col-span-1">
+                                <input type="radio" id="job-1" name="job" value="job-1" class="hidden peer" required>
+                                <label for="job-1" class="inline-flex items-center justify-between w-56 p-1 text-gray-900 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">                           
+                                <div class="block">
+                                    <div class="w-full text-lg font-semibold">UI/UX Engineer</div>
+                                    <div class="w-full text-gray-500 dark:text-gray-400">Flowbite</div>
+                                </div>
+                                </label>
                             </div>
-                            <svg class="w-4 h-4 ms-3 rtl:rotate-180 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
-                        </label>
-                    </li>
-                    <li>
-                        <input type="radio" id="job-3" name="job" value="job-3" class="hidden peer">
-                        <label for="job-3" class="inline-flex items-center justify-between w-full p-1 text-gray-900 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">
-                            <div class="block">
-                                <div class="w-full text-lg font-semibold">Full Stack Engineer</div>
-                                <div class="w-full text-gray-500 dark:text-gray-400">Apple</div>
+                            <div class="col-span-1 mt-3 ml-16">
+                                <input type="number" class="w-20 rounded-xl bg-gray-600 text-white"></input>
                             </div>
-                            <svg class="w-4 h-4 ms-3 rtl:rotate-180 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
-                        </label>
+                        </div>
                     </li>
                 </ul>
                 <button class="text-white inline-flex w-full justify-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><a href="pembayaran.php">Pembayaran</a>
