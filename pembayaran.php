@@ -51,11 +51,11 @@
                                 <div class="container max-w-5xl mx-auto rounded-xl bg-white p-5">
                                     <div class="container mx-auto border border-black rounded-xl bg-gray-300 p-5">
                                         <div class="font-semibold text-center text-xl">Pembelian Anda</div>
-                                        <div>Sayur</div>
-                                        <div class="mt-10">Jumlah</div>
-                                        <div>Harga</div>
+                                        <div>Item yang dibeli <span class="ml-1">:</span> .....</div>
+                                        <div>Jumlah<span class="ml-16"><span class="ml-1"></span>:</span> .....</div>
+                                        <div>Harga<span class="ml-16"><span class="ml-3"></span>:</span> .....</div>
                                         <hr class="bg-black h-1">
-                                        <div>Total Harga</div>
+                                        <div>Total Harga<span class="ml-10">:</span> .....</div>
                                     </div>
                                     <div class="font-semibold text-center mt-5 mb-5 text-xl">Pilih Metode Pembayaran</div>
                                     <div class="flex flex-wrap gap-x-24 justify-evenly">
